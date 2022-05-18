@@ -1,0 +1,125 @@
+/* Proprietà Generali */
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* background */
+
+body {
+  background: url(background.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+/* container nero con trasparenza */
+
+.black-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: 30px auto;
+  padding: 50px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* logo + testo header */
+
+#logo {
+  width: 18%;
+}
+
+#title {
+  color: #04DC04;
+  margin-top: 0px;
+  font-size: 40px;
+  padding-bottom: 1vh;
+}
+
+/* navbar con bottoni */
+
+nav ul {
+  margin: auto;
+  background-color: #04DC04;
+  width: 77%;
+  list-style-type: none;
+  padding-left: 0px;
+  border-radius: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+button {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border: none;
+  padding: 1vh 1vw;
+  background-color: #04DC04;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+button:hover {
+background-color: white;
+color: #04DC04;
+border-radius: 5px;
+}
+
+/* main con monopattino, posizione e carica */
+
+main {
+  width: 80%;
+  margin:auto;
+}
+
+main > section {
+  margin: 20px;
+  color: white;
+  text-align: left;
+}
+
+h2{
+  font-size: 25px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.monopattino > input [type="checkbox"], .monopattino > h2 {
+  display: inline-block;
+}
+
+/* arrow posizone */
+.monopattino > p:before {
+    content: "\21A6";
+}
+
+/* barra di carica */
+
+.carica {
+  font-size: 18px;
+}
+
+.monopattino > div:last-child {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.monopattino> div.half {
+    background-color: #F5B552;
+    width: 35%;
+}
+
+.monopattino> div.full {
+    background-color: #18C418;
+    width: 70%;
+}
+
+.monopattino > div.low {
+    background-color: #BF3F3F;
+    width: 20%;
+}
